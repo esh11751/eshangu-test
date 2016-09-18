@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='DIApp'>
   <head>
     <meta charset="utf-8">
-    <script src="angular.min.js"> </script>
+    <script src="angular.min.js"></script>
     <script src="app.js"></script>
-    <title>Hello NameCaluculator  project</title>
+    <title>Hello eshang test project</title>
   </head>
-  <body ng-app="NameCalculator">
-    <h1>Hello NameCaluculator here </h1>
-
-    <div ng-controller="NameCalculatorController">
-      <div>
-        your name is :
-      <input type="text" ng-model="name" ng-keyup="getNameCharCount();">
-      {{name}}
-    </div>
-    <div>
-  Total name cahar count is : {{totalValue}}</div>
-
-    </div>
-
-
+  <body>
+    <h1>Hello eshang--how are you--i am doing fine</h1>
   </body>
-
+  <h1> My first angular appa </h1>
+  <div ng-controller='DIController'>
+    <input type="text" ng-model="name">
+    {{name}}
+  </div>
 </html>
